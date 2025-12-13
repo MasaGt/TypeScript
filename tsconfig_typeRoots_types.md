@@ -1,6 +1,6 @@
 ### tsconfig の compileOptions.typeRoots フィールドとは
 
-- TypeScript コンパイラが**暗黙的に**読み込む型定義ファイル（.d.tsファイル）の**ディレクトリ**の場所を指定する項目
+- TypeScript コンパイラが**暗黙的に**読み込む型定義ファイル（.d.tsファイル）を含んだパッケージまでの**ディレクトリ**の場所を指定する項目
 
     <img src="./img/tsconfig_typeRoots_types/tsconfig-typeRoots_4.svg" />
 
@@ -27,6 +27,14 @@
         <img src="./img/tsconfig_typeRoots_types/tsconfig-typeRoots_3.svg" />
 
 <br>
+
+#### 注意事項
+
+- typeRoots に設定するパスに注意
+
+    <img src="./img/tsconfig_typeRoots_types/tsconfig-typeRoots-Tips_1.svg" />
+
+<br>
 <br>
 
 参考サイト
@@ -37,7 +45,7 @@
 
 ### tsconfig の compileOptions.types フィールドとは
 
-- TypeScript コンパイラが**暗黙的に**読み込む型定義ファイル ().d.tsファイル）かある**パッケージ**を指定する項目
+- TypeScript コンパイラが**暗黙的に**読み込む型定義ファイル (.d.tsファイル) がある**パッケージ**を指定する項目
 
     <img src="./img/tsconfig_typeRoots_types/tsconfig-types_6.svg" />
 
