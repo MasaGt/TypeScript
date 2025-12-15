@@ -69,3 +69,7 @@
 参考サイト
 
 [ハイラル勇者のためのTypeScript：rootDirsの活用術と代替手段](https://runebook.dev/ja/docs/typescript/tsconfig/rootDirs-config)
+
+[TypeScriptのrootDirs: 複数ソース管理の落とし穴と対策](https://runebook.dev/ja/docs/typescript/tsconfig/index/rootDirs-config)
+
+[js STUDIO - モジュール解決](https://js.studio-kingdom.com/typescript/handbook/module_resolution#virtual_directories_with_root_dirs)
