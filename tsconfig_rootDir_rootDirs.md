@@ -64,6 +64,26 @@
     - ★★仮想ディレクトリとコンパイル&ビルド後のディレクトリ構造を合わせるには、 webpack や Vite, Rollup などのモジュールバンドラーやビルドツールを利用する必要がある
 
 <br>
+
+#### baseUrl, paths と rootDits の違い
+
+- baseUrl, paths
+
+    - 他のモジュールへのパスのショートカット (エイリアスなど) を提供する機能
+
+<br>
+
+- rootDirs
+
+    - ★モジュールとその型情報が離れたディレクトリに存在する場合に、1つの仮想ディレクトリにまとめることでコンパイルを通らせる
+
+    → コンパイル時は型定義情報は捨てられるので影響なし
+
+<br>
+
+<img src="./img/tsconfig_rootDir_rootDirs/tsconfig_rootDirs_3.svg" />
+
+<br>
 <br>
 
 参考サイト
